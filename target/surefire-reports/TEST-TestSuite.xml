@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="183.257" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="FreeCRMTestJob"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="553b4854a8f4d92c"/>
+    <property name="POM_ARTIFACTID" value="PageObjectModelPattern"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\lib\resources.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\lib\rt.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\lib\jsse.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\lib\jce.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\lib\charsets.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\lib\jfr.jar;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="PageObjectModelPattern"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="user.name" value="SAILAKSHMI-PC$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/FreeCRMTestJob/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="SAILAKSHMI-PC$"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Apache_Maven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/FreeCRMTestJob/3/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/FreeCRMTestJob/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="COMPUTERNAME" value="SAILAKSHMI-PC"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="PageObjectModelPattern"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="553b4854a8f4d92c"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Apache_Maven/bin;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8/bin;C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;%QUARTUS_ROOTDIR%\bin;C:\TC\BIN;c:\bcc\bin;C:\Python27;C:\Program Files (x86)\SublimeText3;C:\sai;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\lib;C:\Program Files\Git\cmd;C:\Users\sailakshmi\AppData\Local\Android\Sdk\tools;C:\Users\sailakshmi\AppData\Local\Android\Sdk\tools\bin;C:\Users\sailakshmi\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Apache_Maven"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Apache_Maven\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Apache_Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Apache_Maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 64722"/>
+    <property name="Path" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;%QUARTUS_ROOTDIR%\bin;C:\TC\BIN;c:\bcc\bin;C:\Python27;C:\Program Files (x86)\SublimeText3;C:\sai;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\lib;C:\Program Files\Git\cmd;C:\Users\sailakshmi\AppData\Local\Android\Sdk\tools;C:\Users\sailakshmi\AppData\Local\Android\Sdk\tools\bin;C:\Users\sailakshmi\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Apache_Maven"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Apache_Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Jenkins\tools\hudson.model.JDK\Java_1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\MavenWorkspace\PageObjectModelPatternTest"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Apache_Maven"/>
+    <property name="python" value="C:\Python27;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="ANDROID_HOME" value="C:\Users\sailakshmi\AppData\Local\Android\Sdk"/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="SOPC_KIT_NIOS2" value="C:\altera\81\nios2eds"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\FreeCRMTestJob"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase name="loginCorrectCredentialsTest" classname="com.qa.testcases.LoginPageTest" time="9.294"/>
+  <testcase name="verifyLoginPageTitleTest" classname="com.qa.testcases.LoginPageTest" time="9.43"/>
+  <testcase name="verifySignUpLinkTest" classname="com.qa.testcases.LoginPageTest" time="6.357"/>
+  <testcase name="verifyContactsLinkTest" classname="com.qa.testcases.HomePageTest" time="20.894">
+    <failure message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (435e50699ee57ce4066e95a4dc1f5572)] -&gt; id: nav-primary-contacts-branch] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;SAILAKSHMI-PC&apos;, ip: &apos;192.168.100.10&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.support.events.EventFiringWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Windows\TEMP\scoped_dir4...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}&#10;Session ID: 435e50699ee57ce4066e95a4dc1f5572" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (435e50699ee57ce4066e95a4dc1f5572)] -> id: nav-primary-contacts-branch] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SAILAKSHMI-PC', ip: '192.168.100.10', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Windows\TEMP\scoped_dir4...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 435e50699ee57ce4066e95a4dc1f5572
+	at com.qa.testcases.HomePageTest.verifyContactsLinkTest(HomePageTest.java:56)
+</failure>
+    <system-out><![CDATA[verifySignUpLinkTest passed!
+Before navigating to: 'https://app.hubspot.com/login/'
+Navigated to:'https://app.hubspot.com/login/'
+Trying to find Element By : By.id: username
+Found Element By : By.id: username
+Trying to find Element By : By.id: password
+Found Element By : By.id: password
+Trying to find Element By : By.id: loginBtn
+Found Element By : By.id: loginBtn
+Trying to click on: [[ChromeDriver: chrome on XP (435e50699ee57ce4066e95a4dc1f5572)] -> id: loginBtn]
+Clicked on: [[ChromeDriver: chrome on XP (435e50699ee57ce4066e95a4dc1f5572)] -> id: loginBtn]
+verifyContactsLinkTest started!
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+Trying to find Element By : By.id: nav-primary-contacts-branch
+Found Element By : By.id: nav-primary-contacts-branch
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 13450
+Only local connections are allowed.
+Jul 14, 2019 8:34:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageHeaderTest" classname="com.qa.testcases.HomePageTest" time="8.606"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.qa.testcases.HomePageTest" time="12.281"/>
+</testsuite>

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 183.257 sec <<< FAILURE! - in TestSuite
+verifyContactsLinkTest(com.qa.testcases.HomePageTest)  Time elapsed: 20.894 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (435e50699ee57ce4066e95a4dc1f5572)] -> id: nav-primary-contacts-branch] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SAILAKSHMI-PC', ip: '192.168.100.10', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Windows\TEMP\scoped_dir4...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 435e50699ee57ce4066e95a4dc1f5572
+	at com.qa.testcases.HomePageTest.verifyContactsLinkTest(HomePageTest.java:56)
+
